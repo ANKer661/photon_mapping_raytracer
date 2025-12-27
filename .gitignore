@@ -39,3 +39,9 @@
 
 # debug information files
 *.dwo
+
+# image files
+*.ppm
+
+# MacOS
+*.DS_Store

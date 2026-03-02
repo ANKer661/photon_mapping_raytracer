@@ -11,7 +11,7 @@ Rendering competition of USI computer graphics, 2025 fall.
 
 ## Configuration
 
-![config](config.png)
+![config](figs/config.png)
 
 - visualize_photons: render photons stored in the scene (approximated by a small search radius)
 - visualize_photonmap: render the color contribution from the photon map only
@@ -32,6 +32,20 @@ g++ -O3 -o main main.cpp
 ```bash
 ./main result.ppm
 ```
+
+## Visualization
+
+### W/o photon map
+![no_photon_map](figs/raw.png)
+
+### Photons visualization
+![photons](figs/photons.png)
+
+### Photon mapping effect
+![photon_map](figs/photon_mapping.png)
+
+### Result
+![result](figs/result.png)
 
 ## Details
 
